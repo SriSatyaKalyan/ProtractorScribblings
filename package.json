@@ -1,0 +1,19 @@
+{
+  "name": "ProtractorFirst",
+  "dependencies": {
+    "protractor": "^5.3.0",
+    "jasmine-data-provider": "^2.2.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "configuration1-basicsetup.js",
+  "scripts": {
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/.bin/protractor configuration17-jasminedataprovider.js",
+    "start": "npm run webdriver-update && npm run webdriver-start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
